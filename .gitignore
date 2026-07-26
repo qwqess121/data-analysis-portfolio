@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 日志
+*.log
+streamlit.log
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
+*~
+
+# 本地临时文件
+_count.py
+_fix.py
+_count.py
+_t_*.py
+_t_*.log
+
+# 注意：各项目的 *.db（示例数据）与 outputs/figures/ 保留，
+# 以便 clone 后开箱即用地运行看板。

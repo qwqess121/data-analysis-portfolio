@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+scikit-learn
+streamlit
+# 可选：tensorflow（未安装时自动回退到随机森林）

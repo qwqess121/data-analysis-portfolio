@@ -1,0 +1,11 @@
+product_id,model,MAPE%,current_stock,expected_7d,alert
+1,RandomForest(回退),16.9,315,402.0,⚠️缺货风险
+2,RandomForest(回退),16.2,291,752.0,⚠️缺货风险
+3,RandomForest(回退),17.3,672,867.0,⚠️缺货风险
+4,RandomForest(回退),16.9,120,285.0,⚠️缺货风险
+5,RandomForest(回退),16.5,305,429.0,⚠️缺货风险
+6,RandomForest(回退),16.9,1078,1163.0,⚠️缺货风险
+7,RandomForest(回退),17.0,304,549.0,⚠️缺货风险
+8,RandomForest(回退),15.6,775,631.0,库存充足
+9,RandomForest(回退),16.1,972,954.0,库存充足
+10,RandomForest(回退),17.4,760,786.0,⚠️缺货风险

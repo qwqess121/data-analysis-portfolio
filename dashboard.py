@@ -5,6 +5,7 @@
 - 运行：streamlit run dashboard.py  (默认 http://localhost:8501)
 """
 import os
+import sys
 import re
 import subprocess
 import sqlite3
@@ -18,7 +19,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 BASE = os.path.dirname(__file__)
-PY = r"D:/ProgramData/anaconda/python.exe"
+PY = sys.executable
 PALETTE = ["#4F46E5", "#06B6D4", "#F59E0B", "#EF4444", "#10B981", "#8B5CF6", "#EC4899", "#14B8A6"]
 
 st.set_page_config(page_title="数据分析项目集 · BI 看板", page_icon="📊", layout="wide", initial_sidebar_state="expanded")

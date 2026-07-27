@@ -38,6 +38,18 @@ python etl_clean.py         # 运行分析并导出 outputs/
 
 ## 说明
 - 所有数据均为**程序生成的模拟数据**，可放心公开、复现、改写。
+
+## 🌐 在线部署（Streamlit Community Cloud，免费）
+本项目已配置好根目录 `requirements.txt` 与入口 `dashboard.py`，可一键部署到 https://share.streamlit.io：
+
+1. 打开 https://share.streamlit.io ，用 **GitHub 账号登录**（OAuth 授权一次即可）。
+2. 点击 **New app** → 选择本仓库 `qwqess121/data-analysis-portfolio`。
+3. 设置：
+   - **Main file path**：`dashboard.py`
+   - **Branch**：`main`
+4. 点击 **Deploy**，等待 1–2 分钟，即可获得公开访问链接。
+
+> 之后每次 `git push` 到 `main` 分支，Streamlit Cloud 会自动重新部署。
 - 图表使用本机中文字体（Microsoft YaHei / SimHei）渲染；若在其他环境乱码，安装中文字体或将图中文字改为英文即可。
 - 想更贴近目标行业，可把模拟数据替换为真实业务数据（如公司脱敏数据、Kaggle 公开数据集），改写 README 中的业务背景即可。
 

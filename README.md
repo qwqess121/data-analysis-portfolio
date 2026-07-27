@@ -40,7 +40,9 @@ python etl_clean.py         # 运行分析并导出 outputs/
 - 所有数据均为**程序生成的模拟数据**，可放心公开、复现、改写。
 
 ## 🌐 在线部署（Streamlit Community Cloud，免费）
-本项目已配置好根目录 `requirements.txt` 与入口 `dashboard.py`，可一键部署到 https://share.streamlit.io：
+🚀 **在线演示**：https://data-analysis-portfolio-vsstvbs3ngbeiu64lgyd3h.streamlit.app/
+
+本项目已配置好根目录 `requirements.txt` 与入口 `dashboard.py`，可一键部署到 https://share.streamlit.io:
 
 1. 打开 https://share.streamlit.io ，用 **GitHub 账号登录**（OAuth 授权一次即可）。
 2. 点击 **New app** → 选择本仓库 `qwqess121/data-analysis-portfolio`。
